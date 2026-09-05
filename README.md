@@ -22,6 +22,8 @@ I am an entry-level IT professional and BCA (Hons.) student specializing in Cybe
 - Cyber Security Fundamentals
 - IoT
 - Generative AI Applications
+- Python
+- Wordpress
 
 ## 🚀 Projects
 
