@@ -11,6 +11,7 @@ const projects = {
         title: "Travel Management System",
 
         image: "images/travelease.png",
+        github: "https://rakib-ab-17.github.io/Travel-Management-System",
 
         description:
             "A database-driven travel management portal designed to provide a simple interface for discovering, searching and exploring holiday packages.",
@@ -42,6 +43,7 @@ const projects = {
         title: "Student Attendance System",
 
         image: "images/attendance.png",
+        github: "https://rakib-ab-17.github.io/Student-Attendance-System",
 
         description:
             "A full-stack academic web application created to digitize student attendance management and provide administrative controls for managing academic records.",
@@ -74,7 +76,9 @@ const projects = {
 
         title: "Fire Alarm Alert System",
 
-        image: "images/fire-alarm.png",
+        image: "images/FireaAlarm.png",
+
+        github: "https://rakib-ab-17.github.io/Fire-Alarm-Alert-System",
 
         description:
             "An IoT-based fire and smoke detection concept using a Raspberry Pi and connected electronic components for sensing and alert indication.",
@@ -209,6 +213,30 @@ function openProject(projectId) {
             techContainer.appendChild(span);
 
         });
+
+    }
+
+
+    /* =====================================================
+       GITHUB LINK
+    ===================================================== */
+
+    const modalGithub =
+        document.getElementById("modalGithub");
+
+    if (modalGithub) {
+
+        if (project.github) {
+
+            modalGithub.href = project.github;
+            modalGithub.style.display = "inline-flex";
+
+        } else {
+
+            modalGithub.removeAttribute("href");
+            modalGithub.style.display = "none";
+
+        }
 
     }
 
