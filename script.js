@@ -10,7 +10,7 @@ const projects = {
 
         title: "Travel Management System",
 
-        image: "images/travelease.png",
+        image: "travelease.png",
         github: "https://rakib-ab-17.github.io/Travel-Management-System",
 
         description:
@@ -42,7 +42,7 @@ const projects = {
 
         title: "Student Attendance System",
 
-        image: "images/attendance.png",
+        image: "attendance.png",
         github: "https://rakib-ab-17.github.io/Student-Attendance-System",
 
         description:
@@ -76,7 +76,7 @@ const projects = {
 
         title: "Fire Alarm Alert System",
 
-        image: "images/FireaAlarm.png",
+        image: "FireaAlarm.png",
 
         github: "https://rakib-ab-17.github.io/Fire-Alarm-Alert-System",
 
