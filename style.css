@@ -2050,7 +2050,7 @@ section > p {
 }
 
 .skill-number {
-    color: var(--gsf-sand);
+    display: none;
 }
 
 .skill-card h3 {
