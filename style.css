@@ -707,17 +707,61 @@ section > p {
         0 20px 45px rgba(0,0,0,0.25);
 }
 
-.skill-number {
+/* Skill Icon */
+.skill-icon {
     position: absolute;
+    top: 22px;
+    right: 24px;
 
-    top: 20px;
-    right: 23px;
+    width: 42px;
+    height: 42px;
 
-    color: #44516b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    font-size: 12px;
+    font-size: 32px;
 
-    font-weight: 900;
+    z-index: 2;
+}
+
+/* Individual Skill Icons */
+.html-icon {
+    color: #e34f26;
+}
+
+.css-icon {
+    color: #1572b6;
+}
+
+.js-icon {
+    color: #f7df1e;
+}
+
+.php-icon {
+    color: #777bb4;
+}
+
+.mysql-icon {
+    color: #4479a1;
+}
+
+.bootstrap-icon {
+    color: #7952b3;
+}
+
+.python-icon {
+    color: #3776ab;
+}
+
+.wordpress-icon {
+    color: #21759b;
+}
+
+
+/* Make sure cards can position the icons */
+.skill-card {
+    position: relative;
 }
 
 .skill-card h3 {
